@@ -2,7 +2,6 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
 const refs = { imageList: document.querySelector('ul.gallery') };
-// console.log(galleryItems);
 
 function createGalleryCard({ preview, original, description }) {
   return `<li class="gallery__item">
